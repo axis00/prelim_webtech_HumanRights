@@ -1,0 +1,26 @@
+https://www.w3.org/TR/2013/CR-html5-20130806/semantics.html#the-html-element
+https://www.w3.org/TR/2014/REC-html5-20141028/dom.html#dom
+
+
+
+
+HUMAN RIGHTS 
+content - pictures 
+        - features ( MENU )
+		- deep words
+		- help, about, contact us, contributors, 
+		- human rights na nag eexist in the brgy
+		- contact info ng baranggay
+		
+TITLE : group-pattern
+Heading
+		
+	HD feckchors
+	Menu 
+		Home
+			- list of human rights
+		Contact Us
+			- map
+			- contact info
+		About
+		

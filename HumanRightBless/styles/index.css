@@ -1,0 +1,59 @@
+#barangay img{
+	height: 100px;
+	width: 100px;
+	float: right;
+	padding:none;
+	margin: none;
+
+}
+
+#aHome {
+	width:100%;
+}
+
+#home2 {
+	width:50%;
+	float: right;
+	box-sizing: border-box;
+}
+
+.whatpar1 {
+	float: right;
+	width: 50%;
+	box-sizing: border-box;
+	padding-top: 50px;
+	font-family: Goudy Old Style;
+}
+
+#home3 {
+    width: 50%;
+    padding-right: 10%;
+    padding-top: 10%;
+	
+	
+}
+
+#list {
+
+}
+
+.whatpar2 {
+	float: right;
+	font-family: Georgia;
+
+
+}
+
+#home4 {
+	width: 50%;
+
+}
+
+#home5 {
+	width: 50%;
+
+}
+
+#home6{
+	width: 50%;
+}

@@ -1,42 +1,59 @@
 header {
-    
+    font-family: ;
+    font-size: 18px;
     
 }
 
+h1{
+    
+    
+}
+#barangay img{
+	height: 90px;
+	width: 90px;
+	float: right;
+	padding:none;
+	margin: none;
+}
 
 nav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #82E0AA;
     font-family: Arial;
+    border-radius: 5px;
 }
 
 nav a {
     float: left;
-    font-size: 16px;
-    color: white;
+    font-size: 17px;
+    color: #6E2C00;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    text-shadow: 0.5px 0.5px #6E2C00;
+    
 }
 
 .dropdown {
     float: left;
     overflow: hidden;
+   
 }
 
 .dropdown .dropbtn {
-    font-size: 16px;    
+    font-size: 17px;    
     border: none;
     outline: none;
-    color: white;
-    padding: 14px 16px;
+    color: #6E2C00;
+    padding: 13px 14px;
     background-color: inherit;
-    font: inherit;
     margin: 0;
+    text-shadow: 0.5px 0.5px #6E2C00;
 }
 
 nav a:hover, .dropdown:hover .dropbtn {
-    background-color: #419873;
+    background-color: #6E2C00;
+    color: #82E0AA;
 }
 
 .content {
@@ -50,11 +67,11 @@ nav a:hover, .dropdown:hover .dropbtn {
 
 .content a {
     float: none;
-    color: black;
+    color: #6E2C00;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    text-align: right;
+    text-align: left;
 }
 
 .content a:hover {
@@ -63,3 +80,10 @@ nav a:hover, .dropdown:hover .dropbtn {
 
 .dropdown:hover .content {
     display: block;
+    
+}
+
+body {
+    padding-left: 5%;
+    padding-right: 5%;
+}

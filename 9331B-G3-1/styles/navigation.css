@@ -1,19 +1,14 @@
-header {
-    font-family: ;
-    font-size: 18px;
+#barangay h1{
+    font-family: dancing, cursive;
+    font-size: 90px;
     
 }
 
-h1{
-    
-    
-}
 #barangay img{
-	height: 90px;
-	width: 90px;
-	float: right;
-	padding:none;
-	margin: none;
+	height: 100px;
+	width: 100px;
+	float: left;
+	margin-right: 20px;
 }
 
 nav {
@@ -86,4 +81,9 @@ nav a:hover, .dropdown:hover .dropbtn {
 body {
     padding-left: 5%;
     padding-right: 5%;
+}
+
+@font-face {
+    font-family: dancing;
+    src: url(DancingScript-Bold.ttf);
 }

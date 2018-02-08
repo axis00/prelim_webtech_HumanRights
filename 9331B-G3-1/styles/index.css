@@ -1,19 +1,21 @@
+.aHome img{
+    background-color: #58D68D;
+}
+
 .aHome {
-    position: relative;
     text-align: center;
-    color: #2F4F4F;
-    font-family: chiller;
+    color: #784212;
+    font-family: dancing, cursive;
     text-shadow: 2px 2px white;
-    font-size: 40px;
-    background-color: #E0EEE0;
+    font-size: 500%;
+    font-size-adjust: auto;
     border-radius: 10px;
-    
 }
 
 .aHomeText {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 57%;
+    left: 40%;
     transform: translate(-50%, -50%);
     font-weight: 900;
 }
@@ -71,9 +73,15 @@
 	width: 50%;
 }
 
-body {
+html {
     background-image: url(../images/indexbg.JPG);
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    width: screen width;
+}
+
+body {
+    background-color: ;
+    background-position: center;
 }

@@ -1,20 +1,24 @@
-.aHome img{
-    background-color: #58D68D;
-}
-
 .aHome {
     text-align: center;
+    display: inline-block;
     border-radius: 10px;
+}
+
+.aHome img{
+    max-width: 100%;
+    display: block;
 }
 
 .aHomeText {
     position: absolute;
-    left: 10%;
-    top: 58%;
+    margin-right: 50px;
+    margin-left: 10px;
+    max-width: 100%;
+    min-width: 33%;
     color: black;
     font-family: heading, cursive;
     font-size: 350%;
-    font-size-adjust: auto;
+    font-size-adjust: 250%;
     text-shadow: 2px 2px darkgreen;
     font-weight: 500px;
     letter-spacing: 1px;
@@ -37,7 +41,7 @@
 	width: 50%;
 	box-sizing: border-box;
 	padding-top: 50px;
-	font-family: Goudy Old Style;
+	font-family: regular;
 }
 
 #home3 {
@@ -54,7 +58,7 @@
 
 .whatpar2 {
 	float: right;
-	font-family: Georgia;
+	font-family: regular;
 
 
 }
@@ -74,7 +78,7 @@
 }
 
 html {
-    background-image: url(../images/indexbg.JPG);
+    background-image: url();
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;

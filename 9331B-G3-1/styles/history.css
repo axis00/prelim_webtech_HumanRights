@@ -1,0 +1,27 @@
+.history {
+    
+}
+
+.history h3{
+    font-family: heading;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.history #historypic {
+    width: 45%;
+    float: left;
+    border-radius: 5px;
+}
+
+p {
+    text-indent: 35px;
+    font-family: regular;
+    line-height: 35px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10x;
+}

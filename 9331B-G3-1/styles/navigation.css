@@ -1,7 +1,27 @@
+@font-face {
+    font-family: heading;
+    src: url(DancingScript-Bold.ttf);
+}
+
+@font-face {
+    font-family: regular;
+    src: url(Nunito-Regular.ttf);
+}
+
+html {
+    width: device-width;
+}
+#barangay {
+    box-sizing: border-box;
+}
 #barangay h1{
-    font-family: dancing, cursive;
+    font-family: heading, cursive;
     font-size: 90px;
-    
+    line-height: 1px;
+}
+
+#barangay h3{
+    line-height: 20px;
 }
 
 #barangay img{
@@ -22,11 +42,10 @@ nav a {
     float: left;
     font-size: 17px;
     color: #6E2C00;
-    text-align: center;
+    text-align: justify;
     padding: 14px 16px;
     text-decoration: none;
     text-shadow: 0.5px 0.5px #6E2C00;
-    
 }
 
 .dropdown {
@@ -83,7 +102,6 @@ body {
     padding-right: 5%;
 }
 
-@font-face {
-    font-family: dancing;
-    src: url(DancingScript-Bold.ttf);
+footer {
+    
 }

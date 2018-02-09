@@ -1,0 +1,35 @@
+.contentvands {
+    text-align: left;
+   
+}
+
+.contentvands #vam1 {
+    width: 100%;
+    height: 50%;
+    opacity: 0.7;
+    background-color: #85929E ; 
+    
+    
+}
+.vision {
+    text-indent: 25px;
+    font-family: regular;
+    color: black;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.mission {
+    text-indent: 25px;
+    font-family: regular;
+    color: black;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.contentvands h3 {
+    font-family: heading, bold;
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-weight: 900px;
+}

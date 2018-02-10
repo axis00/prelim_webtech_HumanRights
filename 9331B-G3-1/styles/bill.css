@@ -1,7 +1,34 @@
+@font-face {
+	font-family:paragraph;
+	src: url(PlayfairDisplay-Regular.ttf);
 
-
+}
+@font-face {
+	font-family: paragraph2;
+	src: url(Lora-Regular.ttf);
+}
 #aboutpic1 {
 	width:87%;
 	height: 700px;
 	padding-left: 5%;
+}
+
+.bill {
+	font-family: paragraph;
+}
+
+.bill h2 + p{
+	font-family: paragraph2;
+	text-align: center;
+}
+.bill h2 {
+	text-align: center;
+}
+
+.bill h3{
+    text-align: center;
+}
+.reference1 {
+	font-family: footer;
+	font-size: 12px;
 }

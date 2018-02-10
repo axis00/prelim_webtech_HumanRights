@@ -2,23 +2,27 @@
 h3 {
     font-family: header;
 }
+
+.aHome {
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+    resize: both;
+}
+
 .aHome img{
+    max-width: 100%;
     background-color: #58D68D;
 }
 
-.aHome {
-    text-align: center;
-    border-radius: 10px;
-}
-
-.aHomeText {
+.aHome > div {
     position: absolute;
-    left: 50%;
-    top:45%;
+    top: 2.4 vw;
+    left: 2.4 vw;
     color: black;
     font-family: heading, cursive;
-    font-size: 350%;
-    font-size-adjust: auto;
+    font-size: 4vw;
+    font-size-adjust: 0.98;
     text-shadow: 2px 2px darkgreen;
     font-weight: 500px;
     letter-spacing: 1px;

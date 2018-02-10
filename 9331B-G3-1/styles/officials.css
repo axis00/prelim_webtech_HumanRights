@@ -1,6 +1,37 @@
+@font-face {
+	font-family:roles;
+	src: url(PlayfairDisplay-Regular.ttf);
+}
+
 .barangayofficials h3{
     text-align: center;
-    font-family: dancing, cursive;
+    font-family: heading;
     font-weight: bolder;
-    font-size: 50px;
+    font-size: 35px;
+}
+
+.barangayofficials h4 {
+    font-family: paragraph;
+    font-size: 20px;
+    color: black;
+}
+
+.barangayofficials p {
+    font-family: roles;
+    line-height: 15px;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.barangayofficials h3 + h4 {
+    text-align: center;
+}
+
+.barangayofficials h3 + h4 + p {
+    text-align: center;
+    margin-top: none;
+}
+
+.barangayofficials h3 + h4 + p + h4 {
+    text-align: 
 }

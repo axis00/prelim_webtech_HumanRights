@@ -1,5 +1,6 @@
-.history {
-    
+@font-face{
+    font-family: paragraph;
+     src: url(Merriweather-Light.ttf);
 }
 
 .history h3{
@@ -10,18 +11,26 @@
     
 }
 
+.history p {
+    font-family: paragraph;
+    font-size: 18px; 
+    line-height: 1.5em;
+    padding-top: 20px;
+    margin-left: 25px;
+    text-indent: 25px;
+    padding-top: 3%;
+}
+
 .history #historypic {
     width: 45%;
     float: left;
     border-radius: 5px;
 }
 
-p {
-    text-indent: 35px;
-    font-family: regular;
-    line-height: 35px;
-    letter-spacing: 1px;
-    font-weight: bold;
-    margin-right: 10px;
-    margin-left: 10x;
+
+footer{
+    font-family: footer;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 100px;
 }

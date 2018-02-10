@@ -8,6 +8,23 @@
     src: url(Nunito-Regular.ttf);
 }
 
+@font-face {
+    font-family: paragraph;
+    src: url(Alegreya-Italic.ttf);
+}
+@font-face {
+    font-family: header;
+    src: url(Quicksand-Regular.ttf)
+}
+
+@font-face {
+    font-family: footer;
+    src: url(Montserrat-Regular.ttf)
+}
+
+
+}
+
 html {
     width: device-width;
 }   
@@ -122,12 +139,14 @@ body {
     padding-right: 5%;
 }
 
-footer {
-    color: black;
-    background-color: #82E0AA;
-    width: 100%;
-    border-radius: 5px;
+
+footer{
+    font-family: footer;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 100px;
 }
+
 
 #disclaimer {
     

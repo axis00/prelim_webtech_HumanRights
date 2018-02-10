@@ -32,4 +32,11 @@
     letter-spacing: 1px;
     font-size: 30px;
     font-weight: 900px;
+    position: absolute;
+    top: 25vh;
 }
+
+.contentvands h3 + p + h3 {
+    top: 40vh;
+}
+

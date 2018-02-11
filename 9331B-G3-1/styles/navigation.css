@@ -23,12 +23,8 @@
 }
 
 
-html {
-    width: device-width;
-}   
-
 .container {
-    background-color: #FBEEE6;
+    background-color: #808B96 ;
     border: none;
     border-bottom-left-radius: 170px;
     border-top-left-radius: 40px;
@@ -108,8 +104,8 @@ nav a {
 }
 
 nav a:hover, .dropdown:hover .dropbtn {
-    background-color: #6E2C00;
-    color: #82E0AA;
+    background-color: #808B96 ;
+    color: #6E2C00 ;
 }
 
 .content {
@@ -131,7 +127,8 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 .content a:hover {
-    background-color: #ddd;
+    background-color: #F5EEF8;
+    color: #212F3C ;
 }
 
 .dropdown:hover .content {
@@ -150,6 +147,7 @@ header {
     padding-right: 15px;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
+    color: #212F3C ;
 }
 
 footer {
@@ -161,4 +159,5 @@ footer {
     font-family: footer;
     font-size: 15px;
     text-align: center;
+    color: #212F3C ;
 }

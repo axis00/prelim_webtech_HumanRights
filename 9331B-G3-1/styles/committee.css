@@ -12,6 +12,7 @@
 h4 {
 	font-family: header;
 	text-align: center;
+    
 }
 
 .barangaycanda h4, .specialcommittees h4{
@@ -37,6 +38,7 @@ p{
 	font-family: heading;
 	text-align: center;
 	font-size: 35px;
+    color: #212F3C;
 }
 
 body {

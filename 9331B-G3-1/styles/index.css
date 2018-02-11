@@ -18,11 +18,11 @@ h3 {
 }
 
 .aHome > div {
-    color: black;
+    color: #2E4053;
     font-family: heading, cursive;
     font-size: 4vw;
     text-shadow: 2px 2px #BFC9CA;
-    font-weight: 500px;
+    font-weight: 500;
     letter-spacing: 1px;
     width: 100%; 
     margin-left: 2vw;

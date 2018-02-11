@@ -13,6 +13,7 @@
     font-size: 35px;
     text-align: center;
     font-weight: bold;
+    color: #212F3C ;
     
 }
 
@@ -20,7 +21,7 @@
     font-family: paragraph;
     font-size: 18px; 
     line-height: 1.5em;
-    margin-left: 25px;
+    margin-left: 15px;
     margin-top: 2%;
     text-indent: 25px;
     text-align: justify;

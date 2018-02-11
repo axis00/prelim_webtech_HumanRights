@@ -13,6 +13,7 @@
     font-family: heading;
     font-weight: bolder;
     font-size: 35px;
+    color: #212F3C ;
 }
 
 .barangayofficials h4 {
@@ -20,6 +21,7 @@
     font-size: 20px;
     color: black;
     text-align: center;
+    margin: 15px;
 }
 
 .barangayofficials p {

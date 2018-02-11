@@ -1,0 +1,40 @@
+@font-face {
+	font-family: paragraph1;
+	src: url(fonts/Lora-Regular.ttf);
+}
+
+.barangaycanda h4 {
+	font-family: header;
+	text-align: center;
+}
+.barangaycanda h3{
+	font-family: heading;
+	text-align: center;
+	font-size: 35px;
+}
+
+.barangaycanda h4{
+	text-align: center;
+
+}
+
+.barangaycanda p{
+    font-family: paragraph1;
+    text-align: center; 
+}
+
+.specialcommittees p {
+	font-family: paragraph1;
+	text-align: center;
+}
+
+.specialcommittees h4 {
+	font-family: header;
+	text-align: center;
+}
+
+.specialcommittees h3{
+	font-family: heading;
+	text-align: center;
+	font-size: 35px;
+}

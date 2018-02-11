@@ -78,3 +78,36 @@ body {
     background-repeat: no-repeat;
     text-align: justify;
 }
+
+
+a:link{
+    color:black;
+    text-decoration: none;
+    font-family: footer;
+}
+
+a:hover{
+    color:#ff3300;
+    text-decoration: none;
+    font-family: footer;
+}
+
+
+/** about leonila hill .css part **/
+
+.Aboutleonilahill h3 {
+    font-family: heading,bold;
+    font-size: 36px;
+}
+
+#aboutpic1 {
+    width:60%;
+    float:right;
+}
+
+.Aboutleonilahill p{
+    font-family:regular ;
+    font-size: 18px;
+    line-height: 1.6em;
+
+}

@@ -13,6 +13,9 @@
      src: url(fonts/Merriweather-Light.ttf);
 }
 
+body{
+    margin:auto;
+}
 #aboutpic1 {
 	width:87%;
 	height: 700px;
@@ -124,5 +127,25 @@ h3 {
     line-height: 1.8em;
     padding-left: 10px;
     padding-right: 15px;
+    text-align: justify;
 }
+
+.reference1 a {
+   text-decoration: none;
+   font-family: footer;
+   color:blue;
+}
+
+.reference1 a.hover{
+    color: red;
+    font-family: footer;
+    text-decoration: underline;
+}
+
+.reference1 a.visited {
+    text-decoration: none;
+    font-family: footer;
+
+}
+
 

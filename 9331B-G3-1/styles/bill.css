@@ -1,12 +1,13 @@
 @font-face {
 	font-family:paragraph;
-	src: url(PlayfairDisplay-Regular.ttf);
+	src: url(fonts/PlayfairDisplay-Regular.ttf);
 
 }
 @font-face {
 	font-family: paragraph2;
-	src: url(Lora-Regular.ttf);
+	src: url(fonts/Lora-Regular.ttf);
 }
+
 #aboutpic1 {
 	width:87%;
 	height: 700px;
@@ -14,15 +15,25 @@
 }
 
 .bill {
+    background-color:  hsla(192, 15%, 99%, 0.5);
+    padding-top: 15px;
+    padding-bottom: 25px;
 	font-family: paragraph;
     letter-spacing: 0.5px;
     font-weight: 400;
     text-align: justify;
+    
+}
+
+.bill p {
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .bill h2 + p{
 	font-family: paragraph2;
 	text-align: center;
+    
 }
 .bill h2 {
 	text-align: center;
@@ -31,7 +42,39 @@
 .bill h3{
     text-align: center;
 }
+
 .reference1 {
-	font-family: footer;
-	font-size: 12px;
+	font-family: regular;
+	font-size: 14px;
+    background-color:  hsla(192, 15%, 99%, 0.5);
+    padding-left: 25px;
+}
+
+.reference1 a {
+    color: #512E5F;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.Aboutleonilahill {
+    background-color:  hsla(192, 15%, 99%, 0.5);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.barangayfacilities {
+    background-color:  hsla(192, 15%, 99%, 0.5);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+aside {
+    float: right;
+}
+body {
+    background-image: url(images/Ahome6.JPG);
+    background-position: left bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: justify;
 }

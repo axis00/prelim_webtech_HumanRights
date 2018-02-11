@@ -1,6 +1,11 @@
 @font-face{
     font-family: paragraph;
-     src: url(Merriweather-Light.ttf);
+     src: url(fonts/Merriweather-Light.ttf);
+}
+
+.history {
+    padding: 15px;
+    background-color: hsla(192, 15%, 99%, 0.5);
 }
 
 .history h3{
@@ -31,4 +36,11 @@
     margin-left: 15px;
     opacity: 0.9;
     background-color: #85929E ; 
+}
+
+body {
+    background-image: url(images/historybg.jpg);
+    background-position: right center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }

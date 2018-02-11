@@ -24,7 +24,7 @@
 
 
 .container {
-    background-color: #808B96 ;
+    background-color: #FBEEE6 ;
     border: none;
     border-bottom-left-radius: 170px;
     border-top-left-radius: 40px;
@@ -104,8 +104,8 @@ nav a {
 }
 
 nav a:hover, .dropdown:hover .dropbtn {
-    background-color: #808B96 ;
-    color: #6E2C00 ;
+    background-color: #5D6D7E   ;
+    color: #CCD1D1 ;
 }
 
 .content {
@@ -119,7 +119,7 @@ nav a:hover, .dropdown:hover .dropbtn {
 
 .content a {
     float: none;
-    color: #6E2C00;
+    color: #2E4053 ;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -127,8 +127,8 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 .content a:hover {
-    background-color: #F5EEF8;
-    color: #212F3C ;
+    background-color: #5D6D7E;
+    color: #CCD1D1 ;  
 }
 
 .dropdown:hover .content {

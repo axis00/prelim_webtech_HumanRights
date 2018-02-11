@@ -34,7 +34,12 @@ html {
     border-top-left-radius: 40px;
     border-top-right-radius: 110px;
     border-bottom-right-radius: 15px;
-    width=100%;  
+    width: 100%;
+    max-width: 1200px;
+    min-width: 100px;
+    height: 100%;
+    min-height: 50px;
+    max-height: 400px;
 }
 #barangay {
     font-weight: bolder; 

@@ -3,38 +3,43 @@
 	src: url(fonts/Lora-Regular.ttf);
 }
 
-.barangaycanda h4 {
+.barangaycanda {
+    background-color: hsla(192, 15%, 99%, 0.5);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h4 {
 	font-family: header;
 	text-align: center;
-}
-.barangaycanda h3{
-	font-family: heading;
-	text-align: center;
-	font-size: 35px;
 }
 
 .barangaycanda h4{
 	text-align: center;
-
 }
 
-.barangaycanda p{
+p{
     font-family: paragraph1;
     text-align: center; 
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.specialcommittees p {
-	font-family: paragraph1;
-	text-align: center;
+.specialcommittees {
+    background-color: hsla(192, 15%, 99%, 0.5);
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.specialcommittees h4 {
-	font-family: header;
-	text-align: center;
-}
-
-.specialcommittees h3{
+.specialcommittees h3, .barangaycanda h3{
 	font-family: heading;
 	text-align: center;
 	font-size: 35px;
+}
+
+body {
+    background-image: url(images/historybg.JPG);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }

@@ -4,62 +4,67 @@ h3 {
 }
 
 .aHome {
-    position: relative;
     text-align: center;
-    border-radius: 10px;
     resize: both;
+    background-color: hsla(192, 15%, 99%, 0.5);
 }
 
 .aHome img{
-    visibility: hidden;
     width: 100%;
-    background-color: #58D68D;
+    min-width: 300px;
+    max-width: 1150px;
     border-radius: 10px;
-    background: url(../images/styledAhome.jpg);
+    float: bottom;
 }
 
 .aHome > div {
-    position: absolute;
-    top: 2.4 vw;
-    left: 2.4 vw;
     color: black;
     font-family: heading, cursive;
     font-size: 4vw;
-    font-size-adjust: 0.98;
-    text-shadow: 2px 2px darkgreen;
+    text-shadow: 2px 2px #BFC9CA;
     font-weight: 500px;
     letter-spacing: 1px;
-    transform: translate(-50%,-50%);
+    width: 100%; 
+    max-width: 980px;
+    min-width: 300px;
+    padding-top: 15px;
 }
 
 #home2 {
     width:100%;
     max-width: 600px;
-    float: right;
+    float: left;
     border-spacing: 50px;
-   
+    margin-right: 15px;
+    margin-bottom: 15px;
 }
+
+.paragraph1 , .paragraph2 {
+    background-color: hsla(192, 15%, 99%, 0.5);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
 .whatpar1 {
-    width: 50%;
-    box-sizing: border-box;
     font-family: paragraph;
     font-size: 22px;
     word-spacing: 5px;
     line-height: 1.5em;
     text-align: justify;
     text-indent: 25px;
-
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 
-
-
 #home3 {
-    width: 90%;
-    padding-top: 10%;
-    box-sizing: border-box;
-    padding-left: 5%;
-    
-    
+    width: 100%;
+    max-width: 600px;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 #list {
@@ -71,70 +76,73 @@ h3 {
 .whatpar2 {
     font-family: paragraph;
     font-size: 22px;
-    width:50%;
-    box-sizing: border-box;
     word-spacing: 5px;
-
-
+    text-align: justify;
+    text-indent: 25px;
+    padding-top: 25px;
 }
 
 .whyleonilapharagraph1{
     font-family: paragraph;
     font-size: 22px;
-    width: 50%;
+    text-align: justify;
+    text-indent: 25px;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+
+.paragraph2 h3 {
+    padding-top: 25px;
 }
 
 #home4 {
-    width: 50%;
-    box-sizing: border-box;
-    float: right;
+    width: 100%;
+    max-width: 600px;
     word-spacing: 5px;
-
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
 
 }
 
 #home5 {
-    width:90%;
-    padding-top: 10%;
-    padding-left: 5%;
-
+    width: 100%;
+    max-width: 500px;
+    float:  right;
+    margin-left: 15px;
+    margin-bottom: 15px;
 
 }
 
 .whyleonilapharagraph2 {
     font-size: 20px;
     font-family: paragraph;
-    text-align: center;
+    text-align: justify;
+    text-indent: 25px;
 }
 
 .whyleonilapharagraph3 {
     font-size: 22px;
     font-family: paragraph;
-    float :right;
-    box-sizing: border-box;
-    width: 50%;
-    padding-left: 10px;
     line-height: 1.4em;
-    padding-top: 10%;
     text-indent: 25px;
+    text-align: justify;
 
 }
 
 #home6{
-    width: 50%;
-    box-sizing: border-box;
-    padding-top: 20px;
-
+    width: 100%;
+    max-width: 500px;
 }
 
 body {
-    background-color: ;
-    background-position: center;
+    background-image: url(images/indexbg.JPG);
+    background-attachment: fixed;
+    background-position: right;
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
 }
 
-footer{
-    font-family: footer;
-    font-size: 15px;
-    text-align: center;
-    padding-top: 100px;
+img {
+    border-radius: 5px;
 }

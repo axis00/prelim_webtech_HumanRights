@@ -1,3 +1,4 @@
+
 @font-face {
 	font-family:paragraph;
 	src: url(fonts/PlayfairDisplay-Regular.ttf);
@@ -11,15 +12,6 @@
 @font-face{
     font-family: paragraphabout;
      src: url(fonts/Merriweather-Light.ttf);
-}
-
-body{
-    margin:auto;
-}
-#aboutpic1 {
-	width:87%;
-	height: 700px;
-	padding-left: 5%;
 }
 
 .bill {
@@ -90,44 +82,46 @@ body {
 
 /** about leonila hill .css part **/
 
-
-h3 {
+.programs h3, .barangayfacilities h3 {
     font-family: paragraph;
     font-size:20px;
     text-indent: 30px;
 }
+
 .Aboutleonilahill h3 {
     font-family: heading,bold;
+    text-align: center;
     font-size: 30px;
     text-indent: 30px;
 }
 
 #aboutpic1 {
-    width:55%;
-    height: 500px;
+    width: 100%;
+    min-width:  50px;
+    max-width: 600px;
     float:right;
-    padding-left: 5px;
-    padding-right: 10px;
-
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
 }
 
 .Aboutleonilahill p{
     font-family: paragraph2 ;
     font-size: 16px;
     line-height: 1.8em;
-    padding-left: 10px;
+    margin-left: 15px;
     text-indent: 30px;
     padding-right: 15px;
 
 }
 
-.barangayfacilities,.programs p {
+.barangayfacilities p , .programs p {
     font-family: paragraph2 ;
     font-size: 15px;
     line-height: 1.8em;
-    padding-left: 10px;
     padding-right: 15px;
-    text-align: justify;
+    text-indent: 30px;
+    margin-left: 15px;
 }
 
 .reference1 a {
@@ -136,13 +130,13 @@ h3 {
    color:blue;
 }
 
-.reference1 a.hover{
+.reference1 a:hover{
     color: red;
     font-family: footer;
     text-decoration: underline;
 }
 
-.reference1 a.visited {
+.reference1 a:visited {
     text-decoration: none;
     font-family: footer;
 

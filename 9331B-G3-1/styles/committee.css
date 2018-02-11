@@ -14,8 +14,10 @@ h4 {
 	text-align: center;
 }
 
-.barangaycanda h4{
+.barangaycanda h4, .specialcommittees h4{
 	text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 p{

@@ -25,7 +25,8 @@ h3 {
     font-weight: 500px;
     letter-spacing: 1px;
     width: 100%; 
-    max-width: 980px;
+    margin-left: 2vw;
+    max-width: 1150px;
     min-width: 300px;
     padding-top: 15px;
 }

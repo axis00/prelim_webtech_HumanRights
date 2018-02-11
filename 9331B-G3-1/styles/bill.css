@@ -8,6 +8,11 @@
 	src: url(fonts/Lora-Regular.ttf);
 }
 
+@font-face{
+    font-family: paragraphabout;
+     src: url(fonts/Merriweather-Light.ttf);
+}
+
 #aboutpic1 {
 	width:87%;
 	height: 700px;
@@ -68,6 +73,7 @@
     padding-bottom: 15px;
 }
 
+
 aside {
     float: right;
 }
@@ -79,35 +85,44 @@ body {
     text-align: justify;
 }
 
-
-a:link{
-    color:black;
-    text-decoration: none;
-    font-family: footer;
-}
-
-a:hover{
-    color:#ff3300;
-    text-decoration: none;
-    font-family: footer;
-}
-
-
 /** about leonila hill .css part **/
 
+
+h3 {
+    font-family: paragraph;
+    font-size:20px;
+    text-indent: 30px;
+}
 .Aboutleonilahill h3 {
     font-family: heading,bold;
-    font-size: 36px;
+    font-size: 30px;
+    text-indent: 30px;
 }
 
 #aboutpic1 {
-    width:60%;
+    width:55%;
+    height: 500px;
     float:right;
+    padding-left: 5px;
+    padding-right: 10px;
+
 }
 
 .Aboutleonilahill p{
-    font-family:regular ;
-    font-size: 18px;
-    line-height: 1.6em;
+    font-family: paragraph2 ;
+    font-size: 16px;
+    line-height: 1.8em;
+    padding-left: 10px;
+    text-indent: 30px;
+    padding-right: 15px;
 
 }
+
+.barangayfacilities,.programs p {
+    font-family: paragraph2 ;
+    font-size: 15px;
+    line-height: 1.8em;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+

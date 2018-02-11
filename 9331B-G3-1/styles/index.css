@@ -11,8 +11,11 @@ h3 {
 }
 
 .aHome img{
-    max-width: 100%;
+    display: block;
+    width: 100%;
     background-color: #58D68D;
+    border-radius: 10px;
+    background: url(../images/styledAhome.jpg);
 }
 
 .aHome > div {
@@ -29,16 +32,9 @@ h3 {
     transform: translate(-50%,-50%);
 }
 
-#aHome {
-    width: 100%;
-    height: 50%;
-    opacity: 0.9;
-    border-radius: 10px;
-}
-
-
 #home2 {
-    width:50%;
+    width:100%;
+    max-width: 600px;
     float: right;
     border-spacing: 50px;
    

@@ -1,8 +1,13 @@
 @font-face {
 	font-family:roles;
-	src: url(PlayfairDisplay-Regular.ttf);
+	src: url(Lora-Regular.ttf);
 }
 
+@font-face {
+	font-family:names;
+	src: url(PlayfairDisplay-Regular.ttf);
+
+}
 .barangayofficials h3{
     text-align: center;
     font-family: heading;
@@ -11,9 +16,10 @@
 }
 
 .barangayofficials h4 {
-    font-family: paragraph;
+    font-family: names;
     font-size: 20px;
     color: black;
+    text-align: center;
 }
 
 .barangayofficials p {
@@ -21,17 +27,35 @@
     line-height: 15px;
     letter-spacing: 2px;
     color: black;
-}
-
-.barangayofficials h3 + h4 {
     text-align: center;
 }
 
-.barangayofficials h3 + h4 + p {
-    text-align: center;
-    margin-top: none;
+body {
+    background-image: url(../images/Ahome6.JPG);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
-.barangayofficials h3 + h4 + p + h4 {
-    text-align: 
+header {
+    background-color: hsla(192, 15%, 99%, 0.5);
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
 }
+
+.barangayofficials {
+    background-color: hsla(192, 15%, 99%, 0.5);
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+footer {
+    padding: inherit;
+    background-color: hsla(192, 15%, 99%, 0.5);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+

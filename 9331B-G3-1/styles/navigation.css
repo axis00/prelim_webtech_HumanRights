@@ -23,8 +23,6 @@
 }
 
 
-}
-
 html {
     width: device-width;
 }   
@@ -32,7 +30,7 @@ html {
     background-color: #FBEEE6;
     border: none;
     border-bottom-left-radius: 170px;
-    border-top-left-radius: 20px;
+    border-top-left-radius: 40px;
     border-top-right-radius: 110px;
     border-bottom-right-radius: 15px;
     width=100%;  
@@ -43,9 +41,9 @@ html {
 
 #barangay h1{
     font-family: heading, cursive;
-    font-size: 90px;
     line-height: 1px;
     margin-top: 90px;
+    font-size: 400%;
 }
 
 #barangay h3{
@@ -70,7 +68,7 @@ nav {
     overflow: hidden;
     background-color: #EAEDED;
     font-family: regular;
-    border-top-left-radius: 50px;
+    border-top-left-radius: 30px;
     border-bottom-right-radius: 6px;
 }
 

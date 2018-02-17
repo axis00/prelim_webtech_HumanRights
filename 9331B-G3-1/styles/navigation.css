@@ -38,9 +38,11 @@
 
 nav {
     overflow: hidden;
-    background-color: #EAEDED;
+    background-color: rgba(77, 86, 86 ,0.3);
     font-family: ;
-
+    width: 100%;
+    text-align: center;
+    display: inline-block;
 }
 
 nav a {
@@ -62,7 +64,6 @@ nav a {
 .dropdown .dropbtn {
     font-size: 17px;    
     border: none;
-    outline: none;
     color: #6E2C00;
     padding: 14px 14px;
     font-family: regular;
@@ -107,7 +108,7 @@ body {
 }
 
 header {
-    background-color: hsla(192, 15%, 99%, 0.5);
+    background-color: hsla(178, 186, 187, 0.5);
     border: none;
     color: #212F3C ;
     

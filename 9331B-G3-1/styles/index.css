@@ -21,3 +21,31 @@
     padding-bottom: 5%;
 }
 
+.paragraph1 h3{
+    background-color: rgba(235, 152, 78, 0.3);
+    width: 50%;
+    padding-bottom: 15px;
+    padding-top: px;
+    margin: 0;
+    
+}
+
+#home2 ,#home3, #home4, #home5, #home6 {
+    width: 50%;
+    float: right;
+}
+
+.whatpar1, .whatpar2, .whyleonilapharagraph1 , .whyleonilapharagraph2 , .whyleonilapharagraph3 {
+    background-color: rgba(235, 152, 78, 0.3);
+    width: 50%;
+    margin: 0;
+  
+}
+
+
+body {
+    
+    background-image: url(images/header.JPG);
+    background-attachment: fixed;
+    background-position: center;
+}

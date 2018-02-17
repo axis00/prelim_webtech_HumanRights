@@ -1,11 +1,59 @@
+@font-face{
+    src:url("fonts/NanumPenScript-Regular.ttf");
+    font-family: title;
+}
+
+@font-face{
+    src:url("fonts/Bellefair-Regular.ttf");
+    font-family: paragraph1;
+}
+
+
+.aHome {
+    position: relative;
+    overflow: hidden;
+}
+/**
 .aHome {
     position: relative;
     overflow: hidden;
 }
 
-#aHome {
-    width: 100%;  
 }
+#aHome {
+  width: 100%; 
+  filter:blur(2px); 
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.aHome:hover #aHome {
+  opacity: 0.3;
+  width: 100%; 
+}
+**/
+#aHome {
+   width: 100%; 
+   filter:blur(2px);
+   opacity: 0.8 ;
+   
+
+}
+.aHome:hover #aHome{
+  width: 100%; 
+  transition: .5s ease;
+  backface-visibility: hidden;
+  display: block;
+  opacity: 1;
+}
+.aHome:hover .aHomeText{
+     color:#1f4747;
+}
+
+
 
 .aHomeText {
     position: absolute;
@@ -15,37 +63,74 @@
     border: none;
     transition: .5%;
     text-align: center;
-    background-color: rgba(171, 235, 198, 0.5);
+    /**background-color: rgba(171, 235, 198, 0.5);**/
     font-size: 3.5vw;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    font-family: title;
+    font-size: 56px;
+
 }
 
 .paragraph1 h3{
-    background-color: rgba(235, 152, 78, 0.3);
+    background-color: hsla(150, 50%, 40%,0.2);
     width: 50%;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     padding-top: px;
     margin: 0;
+    font-family: title1;
+    font-size: 44px;
+    color:#6E2C00;
     
 }
+
+
+
+.paragraph2 h3{
+    background-color: hsla(150, 50%, 40%,0.2);
+    width: 50%;
+    padding-bottom: 20px;
+    margin: 0;
+    font-family: title1;
+    font-size: 44px;
+    color:#6E2C00;
+
+}
+
+#list{
+   background-color: hsla(150, 50%, 40%,0.2);
+    width: 50%;
+    padding-bottom: 26px;
+    margin: 0;
+    font-family: nav;
+
+}
+
 
 #home2 ,#home3, #home4, #home5, #home6 {
     width: 50%;
     float: right;
+    margin:0;
 }
 
 .whatpar1, .whatpar2, .whyleonilapharagraph1 , .whyleonilapharagraph2 , .whyleonilapharagraph3 {
-    background-color: rgba(235, 152, 78, 0.3);
+    background-color: hsla(150, 50%, 40%,0.2);
     width: 50%;
     margin: 0;
   
 }
+.whatpar1, .whatpar2, .whyleonilapharagraph1 , .whyleonilapharagraph2 , .whyleonilapharagraph3 {
+    font-family: paragraph1;
+    font-size:26px;
+    line-height: 1.5em;
+    text-indent: 20px;
+    padding-top: 20px;
+
+}
+
+
 
 
 body {
-    
-    background-image: url(images/header.JPG);
+    background-image: url(images/indexbg.JPG);
     background-attachment: fixed;
     background-position: center;
 }

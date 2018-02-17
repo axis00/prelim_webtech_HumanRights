@@ -1,0 +1,117 @@
+@font-face{
+    font-family:billpar;
+    src:url(fonts/Lora-Regular.ttf);
+}
+@font-face{
+	font-family: reference;
+	src:url(fonts/Montserrat-Regular.ttf);
+}
+.bill p{
+    font-family: billpar;
+    text-align: center;
+    line-height: 1.4em;
+}
+.bill h3,h2{
+	 font-family: billpar;
+    text-align: center;
+     color:#2E4053;
+}
+
+.reference1{
+	font-family: reference;
+	font-size: 15px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+
+}
+.reference1 a {
+   text-decoration: none;
+   font-family: footer;
+   color:blue;
+}
+
+.reference1 a:hover{
+    color: red;
+    font-family: footer;
+    text-decoration: underline;
+}
+
+.reference1 a:visited {
+    text-decoration: none;
+    font-family: footer;
+
+}
+
+
+
+
+/** for the about.css **/
+
+#aboutpic1{
+	position: relative;
+    overflow: hidden;
+    width:80%;
+    padding-left:10%;
+}
+
+.Aboutleonilahill p{
+    font-family: paragraph1;
+	text-align: center;
+	font-size:20px;
+	line-height: 1.4em;
+}
+
+.Aboutleonilahill h3{
+	font-family: title1;
+	text-align: center;
+	font-size:44px;
+	color:#6E2C00;
+
+}
+
+.barangayfacilities h3{
+	font-family: nav;
+	text-align: center;
+	font-size:26px;
+}
+
+.barangayfacilities p{
+	font-family: paragraph1;
+	text-align: center;
+	font-size:20px;
+	line-height: 1.4em;
+
+}
+
+.programs p{
+	font-family: paragraph1;
+	text-align: center;
+	font-size:20px;
+	line-height: 1.4em;
+
+}
+
+.programs h3{
+    font-family: nav;
+	text-align: center;
+	font-size:26px;
+
+}
+.Aboutleonilahill,.barangayfacilities{
+	background-color: hsla(150, 50%, 40%,0.2);
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+aside{
+	background-color: hsla(150, 50%, 40%,0.2);
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+body {
+    background-image: url(images/indexbg.JPG);
+    background-attachment: fixed;
+    background-position: center;
+}

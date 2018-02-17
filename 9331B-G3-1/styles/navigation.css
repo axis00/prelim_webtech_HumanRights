@@ -1,3 +1,29 @@
+@font-face{
+    src:url("fonts/GreatVibes-Regular.ttf");
+    font-family: title1;
+}
+
+@font-face{
+    src:url("fonts/Cinzel-Regular.ttf");
+    font-family: nav;
+}
+@font-face{
+    src:url("fonts/PT_Serif-Web-Regular.ttf");
+    font-family: titlepar1;
+}
+
+@font-face{
+    src:url("fonts/Montserrat-Regular.ttf");
+    font-family:footer;
+}
+
+@font-face{
+    src:url("fonts/Bellefair-Regular.ttf");
+    font-family: paragraph1;
+}
+
+
+
 .container {
     background-color: #7DCEA0;
     background-image: ;
@@ -8,23 +34,27 @@
 }
 
 #barangay {
-    font-weight: bolder; 
+    font-weight: bolder;  
+}
+
+#barangay {
+     font-family: title1;
+     color:#6E2C00;
 }
 
 #barangay h1{
-    font-family:  ;
     line-height: 1px;
     font-size: 5vw;
     min-width: 100%;
-    background-color: #FBEEE6 ;
+    background-color:  #7DCEA0 ;
     text-align: center;
+    font-size:44px;
 }
 
 #barangay h3{
     text-align: center;
-    font-family: regular;
     letter-spacing: 3px;
-    line-height: 10px;
+    line-height: 12px;
 }
 
 #barangay img{
@@ -39,7 +69,7 @@
 nav {
     overflow: hidden;
     background-color: rgba(77, 86, 86 ,0.3);
-    font-family: ;
+    font-family: nav;
     width: 100%;
     text-align: center;
     display: inline-block;
@@ -53,6 +83,7 @@ nav a {
     padding: 14px 16px;
     text-decoration: none;
     letter-spacing: 1px;
+    font-family: nav;
 }
 
 
@@ -66,13 +97,13 @@ nav a {
     border: none;
     color: #6E2C00;
     padding: 14px 14px;
-    font-family: regular;
+    font-family: nav;
     background-color: inherit;
 }
 
 nav a:hover, .dropdown:hover .dropbtn {
-    background-color: #5D6D7E   ;
-    color: #CCD1D1 ;
+    background-color: #6E2C00   ;
+    color: #ff6600 ;
 }
 
 .content {
@@ -90,11 +121,12 @@ nav a:hover, .dropdown:hover .dropbtn {
     text-decoration: none;
     display: block;
     text-align: left;
+    background-color: rgba(77, 86, 86 ,0.3);
 }
 
 .content a:hover {
-    background-color: #5D6D7E;
-    color: #CCD1D1 ;  
+    background-color:  #6E2C00;
+    color:#ff6600 ;  
 }
 
 .dropdown:hover .content {
@@ -117,11 +149,21 @@ header {
 footer {
     padding: inherit;
     padding-top: 100px;
-    background-color: hsla(192, 15%, 99%, 0.5);
+    background-color:#7DCEA0;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
     font-family: footer;
     font-size: 15px;
     text-align: center;
-    color: #212F3C ;
+    bottom: 0;
+    color:#1f4747; 
+
 }
+
+
+body {
+    background-image: url(images/indexbg.JPG);
+    background-attachment: fixed;
+    background-position: center;
+}
+

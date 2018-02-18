@@ -1,60 +1,49 @@
-#barangay h1, #barangay h3{
-    font-size: 0;
-    height: 0;
-    margin: 0;
-    visibility: hidden;
-}
-
-.barangaycanda h3{
-	font-family: title1;
-	text-align: center;
-	 font-size:44px;
-	 color:#6E2C00;
-}
-
-.barangaycanda h4{
-	font-family: nav;
-	text-align: center;
-	 font-size:20px;
-
-}
-
-.barangaycanda p{
+@font-face {
 	font-family: paragraph1;
+	src: url(fonts/Lora-Regular.ttf);
+}
+
+.barangaycanda {
+    background-color: hsla(192, 15%, 99%, 0.5);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h4 {
+	font-family: header;
 	text-align: center;
-	 font-size:20px;
+    
 }
 
-.barangaycanda{
-	background-color: hsla(150, 50%, 40%,0.2);
-	padding-top: 20px;
-	padding-bottom:20px;
-
-}
-
-.specialcommittees h3{
-	font-family: title1;
+.barangaycanda h4, .specialcommittees h4{
 	text-align: center;
-	 font-size:44px;
-	 color:#6E2C00;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.specialcommittees h4{
-	font-family: nav;
+p{
+    font-family: paragraph1;
+    text-align: center; 
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.specialcommittees {
+    background-color: hsla(192, 15%, 99%, 0.5);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.specialcommittees h3, .barangaycanda h3{
+	font-family: heading;
 	text-align: center;
-	 font-size:20px;
-
+	font-size: 35px;
+    color: #212F3C;
 }
 
-.specialcommittees p{
-	font-family: paragraph1;
-	text-align: center;
-	 font-size:20px;
-
-}
-
-.specialcommittees{
-	background-color: hsla(150, 50%, 40%,0.2);
-	padding-top: 20px;
-	padding-bottom:20px;
+body {
+    background-image: url(images/historybg.JPG);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }

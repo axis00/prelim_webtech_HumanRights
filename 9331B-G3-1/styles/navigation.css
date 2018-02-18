@@ -1,119 +1,134 @@
-@font-face{
-    src:url("fonts/GreatVibes-Regular.ttf");
-    font-family: title1;
+@font-face {
+    font-family: heading;
+    src: url(fonts/DancingScript-Bold.ttf);
 }
 
-@font-face{
-    src:url("fonts/Cinzel-Regular.ttf");
-    font-family: nav;
-}
-@font-face{
-    src:url("fonts/PT_Serif-Web-Regular.ttf");
-    font-family: titlepar1;
+@font-face {
+    font-family: regular;
+    src: url(fonts/Nunito-Regular.ttf);
 }
 
-@font-face{
-    src:url("fonts/Montserrat-Regular.ttf");
-    font-family:footer;
+@font-face {
+    font-family: paragraph;
+    src: url(fonts/Alegreya-Italic.ttf);
+}
+@font-face {
+    font-family: header;
+    src: url(fonts/Quicksand-Regular.ttf)
 }
 
-@font-face{
-    src:url("fonts/Bellefair-Regular.ttf");
-    font-family: paragraph1;
-}
-
-#barangay h1, #barangay h3{
-    visibility: hidden;
-}
-
-#barangay img {
-    position: absolute;
-    top: 0;
-    right: 1px;
-    width: 50px;
-    z-index: 2;
-    height: 50px;
-    visibility: visible
+@font-face {
+    font-family: footer;
+    src: url(fonts/Montserrat-Regular.ttf)
 }
 
 
+.container {
+    background-color: #FBEEE6 ;
+    border: none;
+    border-bottom-left-radius: 170px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 110px;
+    border-bottom-right-radius: 15px;
+    width: 100%;
+    max-width: 1200px;
+    min-width: 100px;
+    height: 100%;
+    min-height: 50px;
+    max-height: 400px;
+}
+#barangay {
+    font-weight: bolder; 
+}
+
+#barangay h1{
+    font-family: heading, cursive;
+    line-height: 1px;
+    margin-top: 90px;
+    font-size: 400%;
+}
+
+#barangay h3{
+    line-height: 20px;
+    margin-bottom: 30px;
+    float: left;
+    margin-right: 20px;
+    font-family: regular;
+    letter-spacing: 3px;
+    
+}
+
+#barangay img{
+	height: 180px;
+	width: 180px;
+	float: left;
+	margin-right: 20px;
+    margin-top: -70px;
+}
 
 nav {
     overflow: hidden;
-    background-color: rgba(77, 86, 86 ,0.9);
-    font-family: nav;
-    width: 100%;
-    text-align: center;
-    display: inline-block;
-    position: fixed;
-    top: 0%;   
-    z-index: 1;
-    padding-bottom: 0;
-    margin-bottom: 0;
+    background-color: #EAEDED;
+    font-family: regular;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 10px;
 }
 
 nav a {
     float: left;
     font-size: 17px;
-    color: white;
-    text-align: center;
+    color: #6E2C00;
+    text-align: justify;
     padding: 14px 16px;
     text-decoration: none;
-    letter-spacing: 1px;
-    font-family: nav;
-    font-weight: 500;
-    
+    text-shadow: 0.5px 0.5px #6E2C00;
 }
-
 
 .dropdown {
     float: left;
     overflow: hidden;
+   
 }
 
 .dropdown .dropbtn {
     font-size: 17px;    
     border: none;
-    color: white;
+    outline: none;
+    color: #6E2C00;
     padding: 14px 14px;
-    font-family: nav;
+    font-family: regular;
     background-color: inherit;
-    font-weight: 500;
+    margin: 0;
+    text-shadow: 0.5px 0.5px #6E2C00;
 }
 
 nav a:hover, .dropdown:hover .dropbtn {
-    text-decoration: underline;
-    animation: navi 1s infinite;
-}
-
-@keyframes navi {
-    0% {background: rgba(77, 86, 86 ,0.9); color: white;}
-    100% {background: rgba(40, 55, 71 , 0.9); color: rgb (208, 211, 212);}
+    background-color: #5D6D7E   ;
+    color: #CCD1D1 ;
 }
 
 .content {
     display: none;
-    position: fixed;
-    background-color: rgba(249, 254, 252, 1);
+    position: absolute;
+    background-color: #f9f9f9;
     min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    top: 51px;
-    font-weight: 600;
 }
 
 .content a {
+    float: none;
     color: #2E4053 ;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
-    background-color: rgba(77, 86, 86 ,0.3);
 }
 
 .content a:hover {
-    background-color:  #784212 ;
-    color:#ff6600 ;  
+    background-color: #5D6D7E;
+    color: #CCD1D1 ;  
 }
 
 .dropdown:hover .content {
@@ -122,39 +137,27 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 body {
-    background-image: url(images/indexbg.JPG);
-    background-attachment: fixed;
-    background-position: center;
-    padding: 0;
-    margin: 0;
+    padding-left: 5%;
+    padding-right: 5%;
 }
-
 header {
-    background-color: hsla(178, 186, 187, 0.5);
-    border: none;
+    background-color: hsla(192, 15%, 99%, 0.5);
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
     color: #212F3C ;
-    
 }
 
 footer {
     padding: inherit;
     padding-top: 100px;
-    background-color: rgba(77, 86, 86 ,0.9);
+    background-color: hsla(192, 15%, 99%, 0.5);
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
     font-family: footer;
     font-size: 15px;
     text-align: center;
-    bottom: 0;
-    color: white; 
-
+    color: #212F3C ;
 }
-
-
-body {
-    background-image: url(images/indexbg.JPG);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-

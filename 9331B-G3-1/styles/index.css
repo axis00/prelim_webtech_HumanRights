@@ -52,7 +52,6 @@
 
 #aHome {
     width: 98%; 
-    /**filter:blur(1px);**/
     opacity: 0.9 ;
     z-index: -1;
     display: block;
@@ -91,6 +90,7 @@
     visibility: visible;
     border: none;
 }
+
 .aHomeText {
     position: absolute;
     top: 35%;
@@ -132,8 +132,6 @@
 
 #home2:hover .paragraph1 h3{
     color:white;
-
-
 }
 
 .paragraph1 h3{
@@ -148,15 +146,21 @@
     padding-top: 200px; 
     text-align: center;
     position: absolute;
-    transition: 5%;
+    transition: .5%;
 }
 
-
-
-
-
-
-
+.aHomeText {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    height: 10%;
+    border: none;
+    transition: .5%;
+    text-align: center;
+    font-size: 3.5vw;
+    font-family: title1;
+    font-size: 56px;
+}
 
 .paragraph2 h3{
     background-color: hsla(150, 50%, 40%,0.2);
@@ -169,6 +173,7 @@
     margin-left: 10px;
     padding-top: 20px; 
     text-align: center;
+    width: 97.5%;
 }
 
 #list{
@@ -181,6 +186,7 @@
     margin-left: 10px;
     list-style-position: inside;
     text-align: center;
+    width: 97.5%;
 }
 
 
@@ -190,7 +196,6 @@
     margin: 0;
     padding-left: 10%;
     padding-right: 10%;
-    height: 600px;
     border-radius: 5%;
 
 }
@@ -208,5 +213,6 @@
     padding-left: 30px;
     margin-left: 10px;
     text-align: center;
+    width: 96%;
 }
 

@@ -94,11 +94,12 @@ nav a:hover, .dropdown:hover .dropbtn {
 .content {
     display: none;
     position: fixed;
-    background-color: rgba(249, 254, 252, 0.7);
+    background-color: rgba(249, 254, 252, 1);
     min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     top: 51px;
+    font-weight: 600;
 }
 
 .content a {

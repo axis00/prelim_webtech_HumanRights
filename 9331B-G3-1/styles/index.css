@@ -52,6 +52,7 @@
 
 #aHome {
     width: 98%; 
+    /**filter:blur(1px);**/
     opacity: 0.9 ;
     z-index: -1;
     display: block;
@@ -90,7 +91,6 @@
     visibility: visible;
     border: none;
 }
-
 .aHomeText {
     position: absolute;
     top: 35%;
@@ -105,65 +105,26 @@
 
 }
 
-
-
 .paragraph1 , .paragraph2 {
-    background-color: rgba(233,212,179,0.5); 
-    padding-bottom: 12px;
+     background-color: hsla(150, 50%, 40%,0.2);
+    padding:0;
     margin: 0;
-    padding-left: 3px;
     text-align: center;
 }
 
-
-
-#home2{
-    opacity:0.5;
-    position: relative;
-    overflow: hidden;
-}
-
-#home2:hover { 
-  display: block;
-  opacity: 1;
-  transition: .5s ease;
-
-}
-
-#home2:hover .paragraph1 h3{
-    color:white;
-}
 
 .paragraph1 h3{
     padding-bottom: 20px;
-    margin-left: 130px;
-    margin-right: 130px;
-    padding-left: 350px;
+    margin: 0;
     font-family: title1;
     font-size: 44px;
     color:#6E2C00;
-    padding-bottom:10%; 
-    padding-top: 200px; 
+    padding-left: 10px;
+    padding-top: 50px; 
     text-align: center;
-    position: absolute;
-    transition: .5%;
 }
-
-.aHomeText {
-    position: absolute;
-    top: 35%;
-    width: 100%;
-    height: 10%;
-    border: none;
-    transition: .5%;
-    text-align: center;
-    font-size: 3.5vw;
-    font-family: title1;
-    font-size: 56px;
-}
-
 .paragraph2 h3{
-    background-color: hsla(150, 50%, 40%,0.2);
+   
     padding-bottom: 20px;
     margin: 0;
     font-family: title1;
@@ -173,11 +134,9 @@
     margin-left: 10px;
     padding-top: 20px; 
     text-align: center;
-    width: 97.5%;
 }
 
 #list{
-    background-color: hsla(150, 50%, 40%,0.2);
     padding-bottom: 20px;
     margin: 0;
     font-family: nav;
@@ -186,7 +145,7 @@
     margin-left: 10px;
     list-style-position: inside;
     text-align: center;
-    width: 97.5%;
+    font-size: 20px;
 }
 
 
@@ -196,23 +155,21 @@
     margin: 0;
     padding-left: 10%;
     padding-right: 10%;
-    border-radius: 5%;
-
-}
+    height: 600px;
+   }
 
 
 .whatpar1, .whatpar2, .whyleonilapharagraph1 , .whyleonilapharagraph2 , .whyleonilapharagraph3 {
-    background-color: hsla(150, 50%, 40%,0.2);
     margin: 0;
     font-family: paragraph1;
     font-size:26px;
     line-height: 1.5em;
     text-indent: 20px;
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom: 20px;
     padding-left: 30px;
-    margin-left: 10px;
     text-align: center;
-    width: 96%;
+
 }
+
 

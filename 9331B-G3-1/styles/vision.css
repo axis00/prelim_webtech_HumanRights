@@ -1,6 +1,18 @@
+#barangay h1, #barangay h3{
+    font-size: 0;
+    height: 0;
+    margin: 0;
+    visibility: hidden;
+}
+
+.container {
+    padding: 0;
+}
+
 #vam1{
 	width:100%;
-	height: 800px;
+    top: 50px;'
+    position: fixed;
 }
 
 .contentvands {
@@ -10,21 +22,14 @@
 .contentvands p{
 	font-family: paragraph1;
 	text-align: center;
-	 font-size:26px;
+    font-size:26px;
 }
 
 .contentvands h3{
 	font-family: title1;
 	text-align: center;
-	 font-size:44px;
-	 color:#6E2C00;
+    font-size:44px;
+    color:#6E2C00;
+    letter-spacing: 5px;
 
 }
-
-
-body {
-    background-image: url(images/indexbg.JPG);
-    background-attachment: fixed;
-    background-position: center;
-}
-

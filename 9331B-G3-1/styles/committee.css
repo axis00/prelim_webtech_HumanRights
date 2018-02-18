@@ -1,3 +1,10 @@
+#barangay h1, #barangay h3{
+    font-size: 0;
+    height: 0;
+    margin: 0;
+    visibility: hidden;
+}
+
 .barangaycanda h3{
 	font-family: title1;
 	text-align: center;
@@ -53,11 +60,3 @@
 	padding-top: 20px;
 	padding-bottom:20px;
 }
-
-
-body {
-    background-image: url(images/indexbg.JPG);
-    background-attachment: fixed;
-    background-position: center;
-}
-

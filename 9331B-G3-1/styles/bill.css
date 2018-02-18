@@ -2,15 +2,21 @@
     font-family:billpar;
     src:url(fonts/Lora-Regular.ttf);
 }
+
 @font-face{
 	font-family: reference;
 	src:url(fonts/Montserrat-Regular.ttf);
+}
+
+.bill {
+    padding-top: 50px;
 }
 .bill p{
     font-family: billpar;
     text-align: center;
     line-height: 1.4em;
 }
+
 .bill h3,h2{
 	 font-family: billpar;
     text-align: center;
@@ -24,6 +30,7 @@
 	padding-top: 20px;
 
 }
+
 .reference1 a {
    text-decoration: none;
    font-family: footer;
@@ -107,11 +114,4 @@ aside{
 	background-color: hsla(150, 50%, 40%,0.2);
 	padding-top: 50px;
 	padding-bottom: 50px;
-}
-
-
-body {
-    background-image: url(images/indexbg.JPG);
-    background-attachment: fixed;
-    background-position: center;
 }

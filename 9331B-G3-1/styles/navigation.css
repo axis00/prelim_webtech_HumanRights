@@ -22,68 +22,47 @@
     font-family: paragraph1;
 }
 
-
-
-.container {
-    background-color: #7DCEA0;
-    background-image: ;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    border: none;
+#barangay h1, #barangay h3{
+    visibility: hidden;
 }
 
-#barangay {
-    font-weight: bolder;  
+#barangay img {
+    position: absolute;
+    top: 0;
+    right: 1px;
+    width: 50px;
+    z-index: 2;
+    height: 50px;
+    visibility: visible
 }
 
-#barangay {
-     font-family: title1;
-     color:#6E2C00;
-}
 
-#barangay h1{
-    line-height: 1px;
-    font-size: 5vw;
-    min-width: 100%;
-    background-color:  #7DCEA0 ;
-    text-align: center;
-    font-size:44px;
-}
-
-#barangay h3{
-    text-align: center;
-    letter-spacing: 3px;
-    line-height: 12px;
-}
-
-#barangay img{
-	height: 100px;
-	width: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border: none;
-}
 
 nav {
     overflow: hidden;
-    background-color: rgba(77, 86, 86 ,0.3);
+    background-color: rgba(77, 86, 86 ,0.9);
     font-family: nav;
     width: 100%;
     text-align: center;
     display: inline-block;
+    position: fixed;
+    top: 0%;   
+    z-index: 1;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 nav a {
     float: left;
     font-size: 17px;
-    color: #6E2C00;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     letter-spacing: 1px;
     font-family: nav;
+    font-weight: 500;
+    
 }
 
 
@@ -95,24 +74,31 @@ nav a {
 .dropdown .dropbtn {
     font-size: 17px;    
     border: none;
-    color: #6E2C00;
+    color: white;
     padding: 14px 14px;
     font-family: nav;
     background-color: inherit;
+    font-weight: 500;
 }
 
 nav a:hover, .dropdown:hover .dropbtn {
-    background-color: #6E2C00   ;
-    color: #ff6600 ;
+    text-decoration: underline;
+    animation: navi 1s infinite;
+}
+
+@keyframes navi {
+    0% {background: rgba(77, 86, 86 ,0.9); color: white;}
+    100% {background: rgba(40, 55, 71 , 0.9); color: rgb (208, 211, 212);}
 }
 
 .content {
     display: none;
-    position: absolute;
-    background-color: #f9f9f9;
+    position: fixed;
+    background-color: rgba(249, 254, 252, 0.7);
     min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    top: 51px;
 }
 
 .content a {
@@ -125,7 +111,7 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 .content a:hover {
-    background-color:  #6E2C00;
+    background-color:  #784212 ;
     color:#ff6600 ;  
 }
 
@@ -135,6 +121,9 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 body {
+    background-image: url(images/indexbg.JPG);
+    background-attachment: fixed;
+    background-position: center;
     padding: 0;
     margin: 0;
 }
@@ -149,14 +138,14 @@ header {
 footer {
     padding: inherit;
     padding-top: 100px;
-    background-color:#7DCEA0;
+    background-color: rgba(77, 86, 86 ,0.9);
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
     font-family: footer;
     font-size: 15px;
     text-align: center;
     bottom: 0;
-    color:#1f4747; 
+    color: white; 
 
 }
 
@@ -165,5 +154,6 @@ body {
     background-image: url(images/indexbg.JPG);
     background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
